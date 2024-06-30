@@ -23,7 +23,7 @@ Large Language Models (LLMs) generate text but rarely verify its accuracy or sui
 To address this gap, it would be beneficial to develop Ragas-like tools that evaluate whether LLM-generated answers are appropriate for a youthful audience.
 
 To achieve this, I propose combining three powerful language tools:
-* spaCy: An industrial-strength Natural Language Processing (NLP) library in Python.
+* [spaCy](https://github.com/explosion/spaCy): An industrial-strength Natural Language Processing (NLP) library in Python.
 * LLMs / mixtral: A free-to-use, local LLM trained on languages spoken in the EU.
 * Wikipedia word frequency: A tool to assess which words might be unfamiliar to the target audience.
 
@@ -196,9 +196,9 @@ To provide a deeper understanding, the following texts were used for demonstrati
 * A difficult text (EU AI Act)
 
 All texts are analyzed by the yllm4f. The results could be found here.
-* German
-* English
-* French
+* [German](https://github.com/manitaro/yllm4f/blob/main/showcases/German.md)
+* [English](https://github.com/manitaro/yllm4f/blob/main/showcases/English.md)
+* [French](https://github.com/manitaro/yllm4f/blob/main/showcases/French.md)
 
 ## Further work
 
