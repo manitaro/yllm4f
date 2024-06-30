@@ -208,7 +208,7 @@ All texts are analyzed by the yllm4f. The results could be found here.
 
 ## References / Literature
 
-* https://en.wikipxedia.org/wiki/Readability
+* https://en.wikipedia.org/wiki/Readability
   to get an overview over what readability is and what different formulas could be applied. Note that not many readability formulas work with multiple languages.
 * R. Flesch: Art of Readable Writing. Hungry Minds Inc,U.S.; Reissue Edition (1. April 1962)
   Dr. Flesch is an expert in readability.
