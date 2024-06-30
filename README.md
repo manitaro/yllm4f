@@ -209,13 +209,13 @@ All texts are analyzed by the yllm4f. The results could be found here.
 ## References / Literature
 
 * https://en.wikipedia.org/wiki/Readability
-  to get an overview over what readability is and what different formulas could be applied. Note that not many readability formulas work with multiple languages.
+  * to get an overview over what readability is and what different formulas could be applied. Note that not many readability formulas work with multiple languages.
 * R. Flesch: Art of Readable Writing. Hungry Minds Inc,U.S.; Reissue Edition (1. April 1962)
-  Dr. Flesch is an expert in readability.
+  * Dr. Flesch is an expert in readability.
 * W. H. DuBay: The Principles of Readability. Impact Information, Costa Mesa, California 2004
 * https://github.com/explosion/spaCy
-  the standard tool for language analysis
+  * the standard tool for language analysis
 * https://ollama.com/library/mixtral:instruct
-  this LLM model is used. It could be simply deployed within ollama, so it could run locally
+  * this LLM model is used. It could be simply deployed within ollama, so it could run locally
 * https://github.com/explodinggradients/ragas
-  Ragas is a Framework for LLMs to evaluate relevancy, faithfulness, correctness, ... for LLM answers
+  * Ragas is a Framework for LLMs to evaluate relevancy, faithfulness, correctness, ... for LLM answers
