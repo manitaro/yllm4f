@@ -1,0 +1,8 @@
+llama-hub
+llama-index
+sentence_transformers
+spacy
+spacy_syllables
+llama-index-embeddings-huggingface
+llama-index-llms-ollama
+spacy-lefff

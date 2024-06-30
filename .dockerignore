@@ -1,0 +1,6 @@
+**/__pycache__
+Dockerfile
+**/*.md
+.dockerignore
+ci
+showcases/books/
