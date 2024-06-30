@@ -1,21 +1,30 @@
-#!/usr/bin/env python3
 from metrics.nlp import nlp_pipe
 
 
-def syllables(sentence, language):
+def sentences(sentence, language):
     """
-    >>> syllables('Test', 'en')
+    >>> sentences('Test', 'en')
     1
-    >>> syllables('Computer', 'de')
-    3
-    >>> syllables('Also as a sentence', 'en')
-    6
-    >>> syllables('''
+    >>> sentences('Computer', 'de')
+    1
+    >>> sentences('Also as a sentence', 'en')
+    1
+    >>> sentences('''
     ...    Works also on multiple sentences.
     ...    To prove, here is sentence two.
     ... ''', 'en')
-    16
+    1
+    >>> sentences('''
+    ...    Could work with commas, points, ... . Does not count every dot as new sentence.
+    ... ''', 'en')
+    2
+    >>> sentences('''
+    ...    Works with normal sentences.
+    ...    Does it work with question?
+    ...    It should work with exclamations as well!
+    ... ''', 'en')
+    3
     """
-    tokens = list(nlp_pipe(language)(sentence))
+    doc = nlp_pipe(language)(sentence)
 
-    return sum(token._.syllables_count or 0 for token in tokens)
+    return len(list(doc.sents))
