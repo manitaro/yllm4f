@@ -1,0 +1,5 @@
+#!/bin/bash
+set -eo pipefail
+
+docker build . --quiet --tag yllm4f
+cat - | docker run -i yllm4f | jq

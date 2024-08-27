@@ -41,7 +41,7 @@ WORKDIR /work
 
 # Install python requirements
 COPY requirements.txt ./
-RUN pip install -r requirements.txt
+RUN pip install --upgrade pip && pip install -r requirements.txt
 
 # Download spacy language models
 RUN spacy download de_core_news_lg

@@ -1,5 +1,7 @@
 # yllm4f - Youth-Large-Language-Models-4-Freedom
 
+![plot](./documentation/yllm4f.png)
+
 ## Motivation
 
 Crafting a message without considering your target audience will fail to connect effectively. It is essential to tailor your writing to the specific needs and preferences of your audience.
