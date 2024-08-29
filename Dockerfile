@@ -47,6 +47,8 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 RUN spacy download de_core_news_lg
 RUN spacy download en_core_web_lg
 RUN spacy download fr_core_news_lg
+RUN spacy download nl_core_news_lg
+RUN spacy download nl
 RUN spacy download fr
 
 # Add sources

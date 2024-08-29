@@ -16,6 +16,7 @@ def nlp_pipe(language):
         "de": "de_core_news_lg",
         "en": "en_core_web_lg",
         "fr": "fr_core_news_lg",
+        "nl": "nl_core_news_sm",
     }
 
     nlp = spacy.load(by_language[language])
