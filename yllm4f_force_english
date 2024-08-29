@@ -1,0 +1,5 @@
+#!/bin/bash
+set -eo pipefail
+
+docker build . --quiet --tag yllm4f >/dev/null
+cat - | docker run --net=host -i yllm4f --enable-llm --language=en | jq
