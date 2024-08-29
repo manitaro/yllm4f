@@ -22,6 +22,6 @@ def instruct_llm_with_rating(language, instruction, text):
     try:
         response = str(instruct_llm(language, instruction, text))
 
-        return {"rating": int(response.split("\n")[0]), "details": ("\n".join(response.split("\n")[1:])).strip()}
+        return {"rating": int(response.split("\n")[0]), "details": ("\n".join(response.split("\n")[1:])).strip()}  # pylint: disable=use-maxsplit-arg
     except ValueError:
         return {"rating": 1, "details": "problems understanding the text"}

@@ -2,5 +2,5 @@
 set -eo pipefail
 
 black -l 200 *.py */*.py
-PYTHONPATH=. pylint --disable C0301,C0114,C0116,C0415 .
-flake8 --ignore E501 .
+PYTHONPATH=. pylint --disable C0301,C0114,C0116,C0415,duplicate-code .
+flake8 --ignore E231,E501 .

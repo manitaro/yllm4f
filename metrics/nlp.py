@@ -1,12 +1,12 @@
-import spacy
 from functools import lru_cache as cache
-from spacy_syllables import SpacySyllables  # noqa: F401
+import spacy
+from spacy_syllables import SpacySyllables  # noqa: F401 pylint: disable=unused-import
 from spacy_lefff import LefffLemmatizer
 from spacy.language import Language
 
 
 @Language.factory("french_lemmatizer")
-def create_french_lemmatizer(nlp, name):
+def create_french_lemmatizer(nlp, name):  # pylint: disable=unused-argument
     return LefffLemmatizer()
 
 
