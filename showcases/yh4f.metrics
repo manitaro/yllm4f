@@ -1,0 +1,184 @@
+{
+  "complicated words": [
+    "luminaries",
+    "Linuxhotel",
+    "Informationen",
+    "ceremony",
+    "competition",
+    "financially",
+    "Vielrespektzentrum",
+    "Organisationen",
+    "environment",
+    "registering",
+    "interested",
+    "Veranstaltungen",
+    "evaluation",
+    "experiences",
+    "participants",
+    "experienced",
+    "Ceremony",
+    "international",
+    "Ekaterina",
+    "possibilities",
+    "imagination",
+    "development",
+    "evaluated",
+    "dedicated",
+    "celebration",
+    "professional",
+    "interesting",
+    "Additionally",
+    "accompanying",
+    "registration",
+    "illustrations",
+    "opportunity"
+  ],
+  "conciseness": {
+    "details": "The text is concise and interesting, with a clear call to action for young people interested in programming. It provides all the necessary information about the competition, including registration details, award structure, and jury composition. However, it could be improved by reducing some repetition and making the text more engaging for a wider audience. For example, adding personal stories or anecdotes from previous winners could make the text more compelling and relatable. Additionally, providing more specific examples of software projects that have been submitted in the past could give potential participants a better idea of what is expected. Overall, it is a well-written piece that effectively communicates the purpose and benefits of the competition.",
+    "rating": 8
+  },
+  "flesch-reading-ease": {
+    "grade": "7th grade",
+    "score": 67.82480505795576
+  },
+  "language": "en",
+  "statistics": {
+    "sentences": 73,
+    "syllables": 1615,
+    "words": 1105
+  },
+  "understandability": {
+    "details": "The text is mostly understandable for young people but contains some technical terms and references that might require additional explanation or context. The registration process, awards, and jury evaluation are clearly explained, but the details about the software project requirements and the monthly calls could be made more accessible to a younger audience. Overall, it's a good starting point, and with some adjustments, it can become even more understandable for 13-year-olds.",
+    "rating": 7
+  },
+  "unusual words": [
+    {
+      "frequency on wikipedia": 1,
+      "word": "wurde"
+    },
+    {
+      "frequency on wikipedia": 1,
+      "word": "noch"
+    },
+    {
+      "frequency on wikipedia": 1,
+      "word": "Bitte"
+    },
+    {
+      "frequency on wikipedia": 7,
+      "word": "uns"
+    },
+    {
+      "frequency on wikipedia": 2,
+      "word": "diese"
+    },
+    {
+      "frequency on wikipedia": 1,
+      "word": "andere"
+    },
+    {
+      "frequency on wikipedia": 6,
+      "word": "alle"
+    },
+    {
+      "frequency on wikipedia": 2,
+      "word": "Informationen"
+    },
+    {
+      "frequency on wikipedia": 1,
+      "word": "ihrer"
+    },
+    {
+      "frequency on wikipedia": 9,
+      "word": "tinkering"
+    },
+    {
+      "frequency on wikipedia": 1,
+      "word": "FSFE"
+    },
+    {
+      "frequency on wikipedia": 4,
+      "word": "BY"
+    },
+    {
+      "frequency on wikipedia": 4,
+      "word": "Decide"
+    },
+    {
+      "frequency on wikipedia": 3,
+      "word": "Embrace"
+    },
+    {
+      "frequency on wikipedia": 3,
+      "word": "Awesome"
+    },
+    {
+      "frequency on wikipedia": 6,
+      "word": "educative"
+    },
+    {
+      "frequency on wikipedia": 3,
+      "word": "Davide"
+    },
+    {
+      "frequency on wikipedia": 1,
+      "word": "Oriol"
+    },
+    {
+      "frequency on wikipedia": 6,
+      "word": "Ekaterina"
+    },
+    {
+      "frequency on wikipedia": 1,
+      "word": "Miquel"
+    },
+    {
+      "frequency on wikipedia": 2,
+      "word": "Héctor"
+    },
+    {
+      "frequency on wikipedia": 3,
+      "word": "Stavros"
+    },
+    {
+      "frequency on wikipedia": 2,
+      "word": "Sie"
+    },
+    {
+      "frequency on wikipedia": 5,
+      "word": "wie"
+    },
+    {
+      "frequency on wikipedia": 1,
+      "word": "Ihr"
+    },
+    {
+      "frequency on wikipedia": 4,
+      "word": "Zum"
+    },
+    {
+      "frequency on wikipedia": 1,
+      "word": "dieses"
+    },
+    {
+      "frequency on wikipedia": 1,
+      "word": "Textes"
+    },
+    {
+      "frequency on wikipedia": 9,
+      "word": "Commitment"
+    },
+    {
+      "frequency on wikipedia": 1,
+      "word": "Schwester"
+    },
+    {
+      "frequency on wikipedia": 2,
+      "word": "Indien"
+    }
+  ],
+  "youth language": {
+    "details": "The text uses some youth language such as \"hacking\" and \"tinkering\", but it is not entirely written in youth language. There are no emojis used. The text is more formal and informative, providing details about the competition, its rules, and rewards. It also includes quotes from previous winners to give a personal touch.",
+    "rating": 2
+  }
+}
